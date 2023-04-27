@@ -1,7 +1,7 @@
 {
-  "AFG": {
+  "AF": {
     "country": "Afghanistan",
-    "countryCode": "AFG",
+    "countryCode": "AF",
     "currencies": [
       {
         "iso": "AFN",
@@ -10,9 +10,9 @@
       }
     ]
   },
-  "ALB": {
+  "AL": {
     "country": "Albania",
-    "countryCode": "ALB",
+    "countryCode": "AL",
     "currencies": [
       {
         "iso": "ALL",
@@ -21,9 +21,9 @@
       }
     ]
   },
-  "DZA": {
+  "DZ": {
     "country": "Algeria",
-    "countryCode": "DZA",
+    "countryCode": "DZ",
     "currencies": [
       {
         "iso": "DZD",
@@ -32,9 +32,9 @@
       }
     ]
   },
-  "ASM": {
+  "AS": {
     "country": "American Samoa",
-    "countryCode": "ASM",
+    "countryCode": "AS",
     "currencies": [
       {
         "iso": "USD",
@@ -43,9 +43,9 @@
       }
     ]
   },
-  "AND": {
+  "AD": {
     "country": "Andorra",
-    "countryCode": "AND",
+    "countryCode": "AD",
     "currencies": [
       {
         "iso": "EUR",
@@ -54,9 +54,9 @@
       }
     ]
   },
-  "AGO": {
+  "AO": {
     "country": "Angola",
-    "countryCode": "AGO",
+    "countryCode": "AO",
     "currencies": [
       {
         "iso": "AOA",
@@ -65,9 +65,9 @@
       }
     ]
   },
-  "AIA": {
+  "AI": {
     "country": "Anguilla",
-    "countryCode": "AIA",
+    "countryCode": "AI",
     "currencies": [
       {
         "iso": "XCD",
@@ -76,9 +76,9 @@
       }
     ]
   },
-  "ATA": {
+  "AQ": {
     "country": "Antarctica",
-    "countryCode": "ATA",
+    "countryCode": "AQ",
     "currencies": [
       {
         "iso": "",
@@ -87,9 +87,9 @@
       }
     ]
   },
-  "ATG": {
+  "AG": {
     "country": "Antigua and Barbuda",
-    "countryCode": "ATG",
+    "countryCode": "AG",
     "currencies": [
       {
         "iso": "XCD",
@@ -98,9 +98,9 @@
       }
     ]
   },
-  "ARG": {
+  "AR": {
     "country": "Argentina",
-    "countryCode": "ARG",
+    "countryCode": "AR",
     "currencies": [
       {
         "iso": "ARS",
@@ -109,9 +109,9 @@
       }
     ]
   },
-  "ARM": {
+  "AM": {
     "country": "Armenia",
-    "countryCode": "ARM",
+    "countryCode": "AM",
     "currencies": [
       {
         "iso": "AMD",
@@ -120,9 +120,9 @@
       }
     ]
   },
-  "ABW": {
+  "AW": {
     "country": "Aruba",
-    "countryCode": "ABW",
+    "countryCode": "AW",
     "currencies": [
       {
         "iso": "AWG",
@@ -131,9 +131,9 @@
       }
     ]
   },
-  "AUS": {
+  "AU": {
     "country": "Australia",
-    "countryCode": "AUS",
+    "countryCode": "AU",
     "currencies": [
       {
         "iso": "AUD",
@@ -142,9 +142,9 @@
       }
     ]
   },
-  "AUT": {
+  "AT": {
     "country": "Austria",
-    "countryCode": "AUT",
+    "countryCode": "AT",
     "currencies": [
       {
         "iso": "EUR",
@@ -153,9 +153,9 @@
       }
     ]
   },
-  "AZE": {
+  "AZ": {
     "country": "Azerbaijan",
-    "countryCode": "AZE",
+    "countryCode": "AZ",
     "currencies": [
       {
         "iso": "AZN",
@@ -164,9 +164,9 @@
       }
     ]
   },
-  "BHS": {
+  "BS": {
     "country": "Bahamas",
-    "countryCode": "BHS",
+    "countryCode": "BS",
     "currencies": [
       {
         "iso": "BSD",
@@ -175,9 +175,9 @@
       }
     ]
   },
-  "BHR": {
+  "BH": {
     "country": "Bahrain",
-    "countryCode": "BHR",
+    "countryCode": "BH",
     "currencies": [
       {
         "iso": "BHD",
@@ -186,9 +186,9 @@
       }
     ]
   },
-  "BGD": {
+  "BD": {
     "country": "Bangladesh",
-    "countryCode": "BGD",
+    "countryCode": "BD",
     "currencies": [
       {
         "iso": "BDT",
@@ -197,9 +197,9 @@
       }
     ]
   },
-  "BRB": {
+  "BB": {
     "country": "Barbados",
-    "countryCode": "BRB",
+    "countryCode": "BB",
     "currencies": [
       {
         "iso": "BBD",
@@ -208,9 +208,9 @@
       }
     ]
   },
-  "BLR": {
+  "BY": {
     "country": "Belarus",
-    "countryCode": "BLR",
+    "countryCode": "BY",
     "currencies": [
       {
         "iso": "BYR",
@@ -219,9 +219,9 @@
       }
     ]
   },
-  "BEL": {
+  "BE": {
     "country": "Belgium",
-    "countryCode": "BEL",
+    "countryCode": "BE",
     "currencies": [
       {
         "iso": "EUR",
@@ -230,9 +230,9 @@
       }
     ]
   },
-  "BLZ": {
+  "BZ": {
     "country": "Belize",
-    "countryCode": "BLZ",
+    "countryCode": "BZ",
     "currencies": [
       {
         "iso": "BZD",
@@ -241,9 +241,9 @@
       }
     ]
   },
-  "BEN": {
+  "BJ": {
     "country": "Benin",
-    "countryCode": "BEN",
+    "countryCode": "BJ",
     "currencies": [
       {
         "iso": "XOF",
@@ -252,9 +252,9 @@
       }
     ]
   },
-  "BMU": {
+  "BM": {
     "country": "Bermuda",
-    "countryCode": "BMU",
+    "countryCode": "BM",
     "currencies": [
       {
         "iso": "BMD",
@@ -263,9 +263,9 @@
       }
     ]
   },
-  "BTN": {
+  "BT": {
     "country": "Bhutan",
-    "countryCode": "BTN",
+    "countryCode": "BT",
     "currencies": [
       {
         "iso": "BTN",
@@ -274,9 +274,9 @@
       }
     ]
   },
-  "BOL": {
+  "BO": {
     "country": "Bolivia",
-    "countryCode": "BOL",
+    "countryCode": "BO",
     "currencies": [
       {
         "iso": "BOB",
@@ -285,9 +285,9 @@
       }
     ]
   },
-  "BIH": {
+  "BA": {
     "country": "Bosnia and Herzegovina",
-    "countryCode": "BIH",
+    "countryCode": "BA",
     "currencies": [
       {
         "iso": "BAM",
@@ -296,9 +296,9 @@
       }
     ]
   },
-  "BWA": {
+  "BW": {
     "country": "Botswana",
-    "countryCode": "BWA",
+    "countryCode": "BW",
     "currencies": [
       {
         "iso": "BWP",
@@ -307,9 +307,9 @@
       }
     ]
   },
-  "BVT": {
+  "BV": {
     "country": "Bouvet Island",
-    "countryCode": "BVT",
+    "countryCode": "BV",
     "currencies": [
       {
         "iso": "NOK",
@@ -318,9 +318,9 @@
       }
     ]
   },
-  "BRA": {
+  "BR": {
     "country": "Brazil",
-    "countryCode": "BRA",
+    "countryCode": "BR",
     "currencies": [
       {
         "iso": "BRL",
@@ -329,9 +329,9 @@
       }
     ]
   },
-  "IOT": {
+  "IO": {
     "country": "British Indian Ocean Territory",
-    "countryCode": "IOT",
+    "countryCode": "IO",
     "currencies": [
       {
         "iso": "USD",
@@ -340,9 +340,9 @@
       }
     ]
   },
-  "VGB": {
+  "VG": {
     "country": "British Virgin Islands",
-    "countryCode": "VGB",
+    "countryCode": "VG",
     "currencies": [
       {
         "iso": "USD",
@@ -351,9 +351,9 @@
       }
     ]
   },
-  "BRN": {
+  "BN": {
     "country": "Brunei",
-    "countryCode": "BRN",
+    "countryCode": "BN",
     "currencies": [
       {
         "iso": "BND",
@@ -362,9 +362,9 @@
       }
     ]
   },
-  "BGR": {
+  "BG": {
     "country": "Bulgaria",
-    "countryCode": "BGR",
+    "countryCode": "BG",
     "currencies": [
       {
         "iso": "BGN",
@@ -373,9 +373,9 @@
       }
     ]
   },
-  "BFA": {
+  "BF": {
     "country": "Burkina Faso",
-    "countryCode": "BFA",
+    "countryCode": "BF",
     "currencies": [
       {
         "iso": "XOF",
@@ -384,9 +384,9 @@
       }
     ]
   },
-  "BDI": {
+  "BI": {
     "country": "Burundi",
-    "countryCode": "BDI",
+    "countryCode": "BI",
     "currencies": [
       {
         "iso": "BIF",
@@ -395,9 +395,9 @@
       }
     ]
   },
-  "KHM": {
+  "KH": {
     "country": "Cambodia",
-    "countryCode": "KHM",
+    "countryCode": "KH",
     "currencies": [
       {
         "iso": "KHR",
@@ -406,9 +406,9 @@
       }
     ]
   },
-  "CMR": {
+  "CM": {
     "country": "Cameroon",
-    "countryCode": "CMR",
+    "countryCode": "CM",
     "currencies": [
       {
         "iso": "XAF",
@@ -417,9 +417,9 @@
       }
     ]
   },
-  "CAN": {
+  "CA": {
     "country": "Canada",
-    "countryCode": "CAN",
+    "countryCode": "CA",
     "currencies": [
       {
         "iso": "CAD",
@@ -428,9 +428,9 @@
       }
     ]
   },
-  "CPV": {
+  "CV": {
     "country": "Cape Verde",
-    "countryCode": "CPV",
+    "countryCode": "CV",
     "currencies": [
       {
         "iso": "CVE",
@@ -439,9 +439,9 @@
       }
     ]
   },
-  "CYM": {
+  "KY": {
     "country": "Cayman Islands",
-    "countryCode": "CYM",
+    "countryCode": "KY",
     "currencies": [
       {
         "iso": "KYD",
@@ -450,9 +450,9 @@
       }
     ]
   },
-  "CAF": {
+  "CF": {
     "country": "Central African Republic",
-    "countryCode": "CAF",
+    "countryCode": "CF",
     "currencies": [
       {
         "iso": "XAF",
@@ -461,9 +461,9 @@
       }
     ]
   },
-  "TCD": {
+  "TD": {
     "country": "Chad",
-    "countryCode": "TCD",
+    "countryCode": "TD",
     "currencies": [
       {
         "iso": "XAF",
@@ -472,9 +472,9 @@
       }
     ]
   },
-  "CHL": {
+  "CL": {
     "country": "Chile",
-    "countryCode": "CHL",
+    "countryCode": "CL",
     "currencies": [
       {
         "iso": "CLP",
@@ -483,9 +483,9 @@
       }
     ]
   },
-  "CHN": {
+  "CN": {
     "country": "China",
-    "countryCode": "CHN",
+    "countryCode": "CN",
     "currencies": [
       {
         "iso": "CNY",
@@ -494,9 +494,9 @@
       }
     ]
   },
-  "CXR": {
+  "CX": {
     "country": "Christmas Island",
-    "countryCode": "CXR",
+    "countryCode": "CX",
     "currencies": [
       {
         "iso": "AUD",
@@ -505,9 +505,9 @@
       }
     ]
   },
-  "CCK": {
+  "CC": {
     "country": "Cocos Islands",
-    "countryCode": "CCK",
+    "countryCode": "CC",
     "currencies": [
       {
         "iso": "AUD",
@@ -516,9 +516,9 @@
       }
     ]
   },
-  "COL": {
+  "CO": {
     "country": "Colombia",
-    "countryCode": "COL",
+    "countryCode": "CO",
     "currencies": [
       {
         "iso": "COP",
@@ -527,9 +527,9 @@
       }
     ]
   },
-  "COM": {
+  "KM": {
     "country": "Comoros",
-    "countryCode": "COM",
+    "countryCode": "KM",
     "currencies": [
       {
         "iso": "KMF",
@@ -538,9 +538,9 @@
       }
     ]
   },
-  "COK": {
+  "CK": {
     "country": "Cook Islands",
-    "countryCode": "COK",
+    "countryCode": "CK",
     "currencies": [
       {
         "iso": "NZD",
@@ -549,9 +549,9 @@
       }
     ]
   },
-  "CRI": {
+  "CR": {
     "country": "Costa Rica",
-    "countryCode": "CRI",
+    "countryCode": "CR",
     "currencies": [
       {
         "iso": "CRC",
@@ -560,9 +560,9 @@
       }
     ]
   },
-  "HRV": {
+  "HR": {
     "country": "Croatia",
-    "countryCode": "HRV",
+    "countryCode": "HR",
     "currencies": [
       {
         "iso": "HRK",
@@ -571,9 +571,9 @@
       }
     ]
   },
-  "CUB": {
+  "CU": {
     "country": "Cuba",
-    "countryCode": "CUB",
+    "countryCode": "CU",
     "currencies": [
       {
         "iso": "CUP",
@@ -582,9 +582,9 @@
       }
     ]
   },
-  "CYP": {
+  "CY": {
     "country": "Cyprus",
-    "countryCode": "CYP",
+    "countryCode": "CY",
     "currencies": [
       {
         "iso": "CYP",
@@ -593,9 +593,9 @@
       }
     ]
   },
-  "CZE": {
+  "CZ": {
     "country": "Czech Republic",
-    "countryCode": "CZE",
+    "countryCode": "CZ",
     "currencies": [
       {
         "iso": "CZK",
@@ -604,9 +604,9 @@
       }
     ]
   },
-  "COD": {
+  "CD": {
     "country": "Democratic Republic of the Congo",
-    "countryCode": "COD",
+    "countryCode": "CD",
     "currencies": [
       {
         "iso": "CDF",
@@ -615,9 +615,9 @@
       }
     ]
   },
-  "DNK": {
+  "DK": {
     "country": "Denmark",
-    "countryCode": "DNK",
+    "countryCode": "DK",
     "currencies": [
       {
         "iso": "DKK",
@@ -626,9 +626,9 @@
       }
     ]
   },
-  "DJI": {
+  "DJ": {
     "country": "Djibouti",
-    "countryCode": "DJI",
+    "countryCode": "DJ",
     "currencies": [
       {
         "iso": "DJF",
@@ -637,9 +637,9 @@
       }
     ]
   },
-  "DMA": {
+  "DM": {
     "country": "Dominica",
-    "countryCode": "DMA",
+    "countryCode": "DM",
     "currencies": [
       {
         "iso": "XCD",
@@ -648,9 +648,9 @@
       }
     ]
   },
-  "DOM": {
+  "DO": {
     "country": "Dominican Republic",
-    "countryCode": "DOM",
+    "countryCode": "DO",
     "currencies": [
       {
         "iso": "DOP",
@@ -659,9 +659,9 @@
       }
     ]
   },
-  "TLS": {
+  "TL": {
     "country": "East Timor",
-    "countryCode": "TLS",
+    "countryCode": "TL",
     "currencies": [
       {
         "iso": "USD",
@@ -670,9 +670,9 @@
       }
     ]
   },
-  "ECU": {
+  "EC": {
     "country": "Ecuador",
-    "countryCode": "ECU",
+    "countryCode": "EC",
     "currencies": [
       {
         "iso": "USD",
@@ -681,9 +681,9 @@
       }
     ]
   },
-  "EGY": {
+  "EG": {
     "country": "Egypt",
-    "countryCode": "EGY",
+    "countryCode": "EG",
     "currencies": [
       {
         "iso": "EGP",
@@ -692,9 +692,9 @@
       }
     ]
   },
-  "SLV": {
+  "SV": {
     "country": "El Salvador",
-    "countryCode": "SLV",
+    "countryCode": "SV",
     "currencies": [
       {
         "iso": "SVC",
@@ -703,9 +703,9 @@
       }
     ]
   },
-  "GNQ": {
+  "GQ": {
     "country": "Equatorial Guinea",
-    "countryCode": "GNQ",
+    "countryCode": "GQ",
     "currencies": [
       {
         "iso": "XAF",
@@ -714,9 +714,9 @@
       }
     ]
   },
-  "ERI": {
+  "ER": {
     "country": "Eritrea",
-    "countryCode": "ERI",
+    "countryCode": "ER",
     "currencies": [
       {
         "iso": "ERN",
@@ -725,9 +725,9 @@
       }
     ]
   },
-  "EST": {
+  "EE": {
     "country": "Estonia",
-    "countryCode": "EST",
+    "countryCode": "EE",
     "currencies": [
       {
         "iso": "EEK",
@@ -736,9 +736,9 @@
       }
     ]
   },
-  "ETH": {
+  "ET": {
     "country": "Ethiopia",
-    "countryCode": "ETH",
+    "countryCode": "ET",
     "currencies": [
       {
         "iso": "ETB",
@@ -747,9 +747,9 @@
       }
     ]
   },
-  "FLK": {
+  "FK": {
     "country": "Falkland Islands",
-    "countryCode": "FLK",
+    "countryCode": "FK",
     "currencies": [
       {
         "iso": "FKP",
@@ -758,9 +758,9 @@
       }
     ]
   },
-  "FRO": {
+  "FO": {
     "country": "Faroe Islands",
-    "countryCode": "FRO",
+    "countryCode": "FO",
     "currencies": [
       {
         "iso": "DKK",
@@ -769,9 +769,9 @@
       }
     ]
   },
-  "FJI": {
+  "FJ": {
     "country": "Fiji",
-    "countryCode": "FJI",
+    "countryCode": "FJ",
     "currencies": [
       {
         "iso": "FJD",
@@ -780,9 +780,9 @@
       }
     ]
   },
-  "FIN": {
+  "FI": {
     "country": "Finland",
-    "countryCode": "FIN",
+    "countryCode": "FI",
     "currencies": [
       {
         "iso": "EUR",
@@ -791,9 +791,9 @@
       }
     ]
   },
-  "FRA": {
+  "FR": {
     "country": "France",
-    "countryCode": "FRA",
+    "countryCode": "FR",
     "currencies": [
       {
         "iso": "EUR",
@@ -802,9 +802,9 @@
       }
     ]
   },
-  "GUF": {
+  "GF": {
     "country": "French Guiana",
-    "countryCode": "GUF",
+    "countryCode": "GF",
     "currencies": [
       {
         "iso": "EUR",
@@ -813,9 +813,9 @@
       }
     ]
   },
-  "PYF": {
+  "PF": {
     "country": "French Polynesia",
-    "countryCode": "PYF",
+    "countryCode": "PF",
     "currencies": [
       {
         "iso": "XPF",
@@ -824,9 +824,9 @@
       }
     ]
   },
-  "ATF": {
+  "TF": {
     "country": "French Southern Territories",
-    "countryCode": "ATF",
+    "countryCode": "TF",
     "currencies": [
       {
         "iso": "EUR",
@@ -835,9 +835,9 @@
       }
     ]
   },
-  "GAB": {
+  "GA": {
     "country": "Gabon",
-    "countryCode": "GAB",
+    "countryCode": "GA",
     "currencies": [
       {
         "iso": "XAF",
@@ -846,9 +846,9 @@
       }
     ]
   },
-  "GMB": {
+  "GM": {
     "country": "Gambia",
-    "countryCode": "GMB",
+    "countryCode": "GM",
     "currencies": [
       {
         "iso": "GMD",
@@ -857,9 +857,9 @@
       }
     ]
   },
-  "GEO": {
+  "GE": {
     "country": "Georgia",
-    "countryCode": "GEO",
+    "countryCode": "GE",
     "currencies": [
       {
         "iso": "GEL",
@@ -868,9 +868,9 @@
       }
     ]
   },
-  "DEU": {
+  "DE": {
     "country": "Germany",
-    "countryCode": "DEU",
+    "countryCode": "DE",
     "currencies": [
       {
         "iso": "EUR",
@@ -879,9 +879,9 @@
       }
     ]
   },
-  "GHA": {
+  "GH": {
     "country": "Ghana",
-    "countryCode": "GHA",
+    "countryCode": "GH",
     "currencies": [
       {
         "iso": "GHC",
@@ -890,9 +890,9 @@
       }
     ]
   },
-  "GIB": {
+  "GI": {
     "country": "Gibraltar",
-    "countryCode": "GIB",
+    "countryCode": "GI",
     "currencies": [
       {
         "iso": "GIP",
@@ -901,9 +901,9 @@
       }
     ]
   },
-  "GRC": {
+  "GR": {
     "country": "Greece",
-    "countryCode": "GRC",
+    "countryCode": "GR",
     "currencies": [
       {
         "iso": "EUR",
@@ -912,9 +912,9 @@
       }
     ]
   },
-  "GRL": {
+  "GL": {
     "country": "Greenland",
-    "countryCode": "GRL",
+    "countryCode": "GL",
     "currencies": [
       {
         "iso": "DKK",
@@ -923,9 +923,9 @@
       }
     ]
   },
-  "GRD": {
+  "GD": {
     "country": "Grenada",
-    "countryCode": "GRD",
+    "countryCode": "GD",
     "currencies": [
       {
         "iso": "XCD",
@@ -934,9 +934,9 @@
       }
     ]
   },
-  "GLP": {
+  "GP": {
     "country": "Guadeloupe",
-    "countryCode": "GLP",
+    "countryCode": "GP",
     "currencies": [
       {
         "iso": "EUR",
@@ -945,9 +945,9 @@
       }
     ]
   },
-  "GUM": {
+  "GU": {
     "country": "Guam",
-    "countryCode": "GUM",
+    "countryCode": "GU",
     "currencies": [
       {
         "iso": "USD",
@@ -956,9 +956,9 @@
       }
     ]
   },
-  "GTM": {
+  "GT": {
     "country": "Guatemala",
-    "countryCode": "GTM",
+    "countryCode": "GT",
     "currencies": [
       {
         "iso": "GTQ",
@@ -967,9 +967,9 @@
       }
     ]
   },
-  "GIN": {
+  "GN": {
     "country": "Guinea",
-    "countryCode": "GIN",
+    "countryCode": "GN",
     "currencies": [
       {
         "iso": "GNF",
@@ -978,9 +978,9 @@
       }
     ]
   },
-  "GNB": {
+  "GW": {
     "country": "Guinea-Bissau",
-    "countryCode": "GNB",
+    "countryCode": "GW",
     "currencies": [
       {
         "iso": "XOF",
@@ -989,9 +989,9 @@
       }
     ]
   },
-  "GUY": {
+  "GY": {
     "country": "Guyana",
-    "countryCode": "GUY",
+    "countryCode": "GY",
     "currencies": [
       {
         "iso": "GYD",
@@ -1000,9 +1000,9 @@
       }
     ]
   },
-  "HTI": {
+  "HT": {
     "country": "Haiti",
-    "countryCode": "HTI",
+    "countryCode": "HT",
     "currencies": [
       {
         "iso": "HTG",
@@ -1011,9 +1011,9 @@
       }
     ]
   },
-  "HMD": {
+  "HM": {
     "country": "Heard Island and McDonald Islands",
-    "countryCode": "HMD",
+    "countryCode": "HM",
     "currencies": [
       {
         "iso": "AUD",
@@ -1022,9 +1022,9 @@
       }
     ]
   },
-  "HND": {
+  "HN": {
     "country": "Honduras",
-    "countryCode": "HND",
+    "countryCode": "HN",
     "currencies": [
       {
         "iso": "HNL",
@@ -1033,9 +1033,9 @@
       }
     ]
   },
-  "HKG": {
+  "HK": {
     "country": "Hong Kong",
-    "countryCode": "HKG",
+    "countryCode": "HK",
     "currencies": [
       {
         "iso": "HKD",
@@ -1044,9 +1044,9 @@
       }
     ]
   },
-  "HUN": {
+  "HU": {
     "country": "Hungary",
-    "countryCode": "HUN",
+    "countryCode": "HU",
     "currencies": [
       {
         "iso": "HUF",
@@ -1055,9 +1055,9 @@
       }
     ]
   },
-  "ISL": {
+  "IS": {
     "country": "Iceland",
-    "countryCode": "ISL",
+    "countryCode": "IS",
     "currencies": [
       {
         "iso": "ISK",
@@ -1066,9 +1066,9 @@
       }
     ]
   },
-  "IND": {
+  "IN": {
     "country": "India",
-    "countryCode": "IND",
+    "countryCode": "IN",
     "currencies": [
       {
         "iso": "INR",
@@ -1077,9 +1077,9 @@
       }
     ]
   },
-  "IDN": {
+  "ID": {
     "country": "Indonesia",
-    "countryCode": "IDN",
+    "countryCode": "ID",
     "currencies": [
       {
         "iso": "IDR",
@@ -1088,9 +1088,9 @@
       }
     ]
   },
-  "IRN": {
+  "IR": {
     "country": "Iran",
-    "countryCode": "IRN",
+    "countryCode": "IR",
     "currencies": [
       {
         "iso": "IRR",
@@ -1099,9 +1099,9 @@
       }
     ]
   },
-  "IRQ": {
+  "IQ": {
     "country": "Iraq",
-    "countryCode": "IRQ",
+    "countryCode": "IQ",
     "currencies": [
       {
         "iso": "IQD",
@@ -1110,9 +1110,9 @@
       }
     ]
   },
-  "IRL": {
+  "IE": {
     "country": "Ireland",
-    "countryCode": "IRL",
+    "countryCode": "IE",
     "currencies": [
       {
         "iso": "EUR",
@@ -1121,9 +1121,9 @@
       }
     ]
   },
-  "ISR": {
+  "IL": {
     "country": "Israel",
-    "countryCode": "ISR",
+    "countryCode": "IL",
     "currencies": [
       {
         "iso": "ILS",
@@ -1132,9 +1132,9 @@
       }
     ]
   },
-  "ITA": {
+  "IT": {
     "country": "Italy",
-    "countryCode": "ITA",
+    "countryCode": "IT",
     "currencies": [
       {
         "iso": "EUR",
@@ -1143,9 +1143,9 @@
       }
     ]
   },
-  "CIV": {
+  "CI": {
     "country": "Ivory Coast",
-    "countryCode": "CIV",
+    "countryCode": "CI",
     "currencies": [
       {
         "iso": "XOF",
@@ -1154,9 +1154,9 @@
       }
     ]
   },
-  "JAM": {
+  "JM": {
     "country": "Jamaica",
-    "countryCode": "JAM",
+    "countryCode": "JM",
     "currencies": [
       {
         "iso": "JMD",
@@ -1165,9 +1165,9 @@
       }
     ]
   },
-  "JPN": {
+  "JP": {
     "country": "Japan",
-    "countryCode": "JPN",
+    "countryCode": "JP",
     "currencies": [
       {
         "iso": "JPY",
@@ -1176,9 +1176,9 @@
       }
     ]
   },
-  "JOR": {
+  "JO": {
     "country": "Jordan",
-    "countryCode": "JOR",
+    "countryCode": "JO",
     "currencies": [
       {
         "iso": "JOD",
@@ -1187,9 +1187,9 @@
       }
     ]
   },
-  "KAZ": {
+  "KZ": {
     "country": "Kazakhstan",
-    "countryCode": "KAZ",
+    "countryCode": "KZ",
     "currencies": [
       {
         "iso": "KZT",
@@ -1198,9 +1198,9 @@
       }
     ]
   },
-  "KEN": {
+  "KE": {
     "country": "Kenya",
-    "countryCode": "KEN",
+    "countryCode": "KE",
     "currencies": [
       {
         "iso": "KES",
@@ -1209,9 +1209,9 @@
       }
     ]
   },
-  "KIR": {
+  "KI": {
     "country": "Kiribati",
-    "countryCode": "KIR",
+    "countryCode": "KI",
     "currencies": [
       {
         "iso": "AUD",
@@ -1220,9 +1220,9 @@
       }
     ]
   },
-  "KWT": {
+  "KW": {
     "country": "Kuwait",
-    "countryCode": "KWT",
+    "countryCode": "KW",
     "currencies": [
       {
         "iso": "KWD",
@@ -1231,9 +1231,9 @@
       }
     ]
   },
-  "KGZ": {
+  "KG": {
     "country": "Kyrgyzstan",
-    "countryCode": "KGZ",
+    "countryCode": "KG",
     "currencies": [
       {
         "iso": "KGS",
@@ -1242,9 +1242,9 @@
       }
     ]
   },
-  "LAO": {
+  "LA": {
     "country": "Laos",
-    "countryCode": "LAO",
+    "countryCode": "LA",
     "currencies": [
       {
         "iso": "LAK",
@@ -1253,9 +1253,9 @@
       }
     ]
   },
-  "LVA": {
+  "LV": {
     "country": "Latvia",
-    "countryCode": "LVA",
+    "countryCode": "LV",
     "currencies": [
       {
         "iso": "LVL",
@@ -1264,9 +1264,9 @@
       }
     ]
   },
-  "LBN": {
+  "LB": {
     "country": "Lebanon",
-    "countryCode": "LBN",
+    "countryCode": "LB",
     "currencies": [
       {
         "iso": "LBP",
@@ -1275,9 +1275,9 @@
       }
     ]
   },
-  "LSO": {
+  "LS": {
     "country": "Lesotho",
-    "countryCode": "LSO",
+    "countryCode": "LS",
     "currencies": [
       {
         "iso": "LSL",
@@ -1286,9 +1286,9 @@
       }
     ]
   },
-  "LBR": {
+  "LR": {
     "country": "Liberia",
-    "countryCode": "LBR",
+    "countryCode": "LR",
     "currencies": [
       {
         "iso": "LRD",
@@ -1297,9 +1297,9 @@
       }
     ]
   },
-  "LBY": {
+  "LY": {
     "country": "Libya",
-    "countryCode": "LBY",
+    "countryCode": "LY",
     "currencies": [
       {
         "iso": "LYD",
@@ -1308,9 +1308,9 @@
       }
     ]
   },
-  "LIE": {
+  "LI": {
     "country": "Liechtenstein",
-    "countryCode": "LIE",
+    "countryCode": "LI",
     "currencies": [
       {
         "iso": "CHF",
@@ -1319,9 +1319,9 @@
       }
     ]
   },
-  "LTU": {
+  "LT": {
     "country": "Lithuania",
-    "countryCode": "LTU",
+    "countryCode": "LT",
     "currencies": [
       {
         "iso": "LTL",
@@ -1330,9 +1330,9 @@
       }
     ]
   },
-  "LUX": {
+  "LU": {
     "country": "Luxembourg",
-    "countryCode": "LUX",
+    "countryCode": "LU",
     "currencies": [
       {
         "iso": "EUR",
@@ -1341,9 +1341,9 @@
       }
     ]
   },
-  "MAC": {
+  "MO": {
     "country": "Macao",
-    "countryCode": "MAC",
+    "countryCode": "MO",
     "currencies": [
       {
         "iso": "MOP",
@@ -1352,9 +1352,9 @@
       }
     ]
   },
-  "MKD": {
+  "MK": {
     "country": "Macedonia",
-    "countryCode": "MKD",
+    "countryCode": "MK",
     "currencies": [
       {
         "iso": "MKD",
@@ -1363,9 +1363,9 @@
       }
     ]
   },
-  "MDG": {
+  "MG": {
     "country": "Madagascar",
-    "countryCode": "MDG",
+    "countryCode": "MG",
     "currencies": [
       {
         "iso": "MGA",
@@ -1374,9 +1374,9 @@
       }
     ]
   },
-  "MWI": {
+  "MW": {
     "country": "Malawi",
-    "countryCode": "MWI",
+    "countryCode": "MW",
     "currencies": [
       {
         "iso": "MWK",
@@ -1385,9 +1385,9 @@
       }
     ]
   },
-  "MYS": {
+  "MY": {
     "country": "Malaysia",
-    "countryCode": "MYS",
+    "countryCode": "MY",
     "currencies": [
       {
         "iso": "MYR",
@@ -1396,9 +1396,9 @@
       }
     ]
   },
-  "MDV": {
+  "MV": {
     "country": "Maldives",
-    "countryCode": "MDV",
+    "countryCode": "MV",
     "currencies": [
       {
         "iso": "MVR",
@@ -1407,9 +1407,9 @@
       }
     ]
   },
-  "MLI": {
+  "ML": {
     "country": "Mali",
-    "countryCode": "MLI",
+    "countryCode": "ML",
     "currencies": [
       {
         "iso": "XOF",
@@ -1418,9 +1418,9 @@
       }
     ]
   },
-  "MLT": {
+  "MT": {
     "country": "Malta",
-    "countryCode": "MLT",
+    "countryCode": "MT",
     "currencies": [
       {
         "iso": "MTL",
@@ -1429,9 +1429,9 @@
       }
     ]
   },
-  "MHL": {
+  "MH": {
     "country": "Marshall Islands",
-    "countryCode": "MHL",
+    "countryCode": "MH",
     "currencies": [
       {
         "iso": "USD",
@@ -1440,9 +1440,9 @@
       }
     ]
   },
-  "MTQ": {
+  "MQ": {
     "country": "Martinique",
-    "countryCode": "MTQ",
+    "countryCode": "MQ",
     "currencies": [
       {
         "iso": "EUR",
@@ -1451,9 +1451,9 @@
       }
     ]
   },
-  "MRT": {
+  "MR": {
     "country": "Mauritania",
-    "countryCode": "MRT",
+    "countryCode": "MR",
     "currencies": [
       {
         "iso": "MRO",
@@ -1462,9 +1462,9 @@
       }
     ]
   },
-  "MUS": {
+  "MU": {
     "country": "Mauritius",
-    "countryCode": "MUS",
+    "countryCode": "MU",
     "currencies": [
       {
         "iso": "MUR",
@@ -1473,9 +1473,9 @@
       }
     ]
   },
-  "MYT": {
+  "YT": {
     "country": "Mayotte",
-    "countryCode": "MYT",
+    "countryCode": "YT",
     "currencies": [
       {
         "iso": "EUR",
@@ -1484,9 +1484,9 @@
       }
     ]
   },
-  "MEX": {
+  "MX": {
     "country": "Mexico",
-    "countryCode": "MEX",
+    "countryCode": "MX",
     "currencies": [
       {
         "iso": "MXN",
@@ -1495,9 +1495,9 @@
       }
     ]
   },
-  "FSM": {
+  "FM": {
     "country": "Micronesia",
-    "countryCode": "FSM",
+    "countryCode": "FM",
     "currencies": [
       {
         "iso": "USD",
@@ -1506,9 +1506,9 @@
       }
     ]
   },
-  "MDA": {
+  "MD": {
     "country": "Moldova",
-    "countryCode": "MDA",
+    "countryCode": "MD",
     "currencies": [
       {
         "iso": "MDL",
@@ -1517,9 +1517,9 @@
       }
     ]
   },
-  "MCO": {
+  "MC": {
     "country": "Monaco",
-    "countryCode": "MCO",
+    "countryCode": "MC",
     "currencies": [
       {
         "iso": "EUR",
@@ -1528,9 +1528,9 @@
       }
     ]
   },
-  "MNG": {
+  "MN": {
     "country": "Mongolia",
-    "countryCode": "MNG",
+    "countryCode": "MN",
     "currencies": [
       {
         "iso": "MNT",
@@ -1539,9 +1539,9 @@
       }
     ]
   },
-  "MSR": {
+  "MS": {
     "country": "Montserrat",
-    "countryCode": "MSR",
+    "countryCode": "MS",
     "currencies": [
       {
         "iso": "XCD",
@@ -1550,9 +1550,9 @@
       }
     ]
   },
-  "MAR": {
+  "MA": {
     "country": "Morocco",
-    "countryCode": "MAR",
+    "countryCode": "MA",
     "currencies": [
       {
         "iso": "MAD",
@@ -1561,9 +1561,9 @@
       }
     ]
   },
-  "MOZ": {
+  "MZ": {
     "country": "Mozambique",
-    "countryCode": "MOZ",
+    "countryCode": "MZ",
     "currencies": [
       {
         "iso": "MZN",
@@ -1572,9 +1572,9 @@
       }
     ]
   },
-  "MMR": {
+  "MM": {
     "country": "Myanmar",
-    "countryCode": "MMR",
+    "countryCode": "MM",
     "currencies": [
       {
         "iso": "MMK",
@@ -1583,9 +1583,9 @@
       }
     ]
   },
-  "NAM": {
+  "NA": {
     "country": "Namibia",
-    "countryCode": "NAM",
+    "countryCode": "NA",
     "currencies": [
       {
         "iso": "NAD",
@@ -1594,9 +1594,9 @@
       }
     ]
   },
-  "NRU": {
+  "NR": {
     "country": "Nauru",
-    "countryCode": "NRU",
+    "countryCode": "NR",
     "currencies": [
       {
         "iso": "AUD",
@@ -1605,9 +1605,9 @@
       }
     ]
   },
-  "NPL": {
+  "NP": {
     "country": "Nepal",
-    "countryCode": "NPL",
+    "countryCode": "NP",
     "currencies": [
       {
         "iso": "NPR",
@@ -1616,9 +1616,9 @@
       }
     ]
   },
-  "NLD": {
+  "NL": {
     "country": "Netherlands",
-    "countryCode": "NLD",
+    "countryCode": "NL",
     "currencies": [
       {
         "iso": "EUR",
@@ -1627,9 +1627,9 @@
       }
     ]
   },
-  "ANT": {
+  "AN": {
     "country": "Netherlands Antilles",
-    "countryCode": "ANT",
+    "countryCode": "AN",
     "currencies": [
       {
         "iso": "ANG",
@@ -1638,9 +1638,9 @@
       }
     ]
   },
-  "NCL": {
+  "NC": {
     "country": "New Caledonia",
-    "countryCode": "NCL",
+    "countryCode": "NC",
     "currencies": [
       {
         "iso": "XPF",
@@ -1649,9 +1649,9 @@
       }
     ]
   },
-  "NZL": {
+  "NZ": {
     "country": "New Zealand",
-    "countryCode": "NZL",
+    "countryCode": "NZ",
     "currencies": [
       {
         "iso": "NZD",
@@ -1660,9 +1660,9 @@
       }
     ]
   },
-  "NIC": {
+  "NI": {
     "country": "Nicaragua",
-    "countryCode": "NIC",
+    "countryCode": "NI",
     "currencies": [
       {
         "iso": "NIO",
@@ -1671,9 +1671,9 @@
       }
     ]
   },
-  "NER": {
+  "NE": {
     "country": "Niger",
-    "countryCode": "NER",
+    "countryCode": "NE",
     "currencies": [
       {
         "iso": "XOF",
@@ -1682,9 +1682,9 @@
       }
     ]
   },
-  "NGA": {
+  "NG": {
     "country": "Nigeria",
-    "countryCode": "NGA",
+    "countryCode": "NG",
     "currencies": [
       {
         "iso": "NGN",
@@ -1693,9 +1693,9 @@
       }
     ]
   },
-  "NIU": {
+  "NU": {
     "country": "Niue",
-    "countryCode": "NIU",
+    "countryCode": "NU",
     "currencies": [
       {
         "iso": "NZD",
@@ -1704,9 +1704,9 @@
       }
     ]
   },
-  "NFK": {
+  "NF": {
     "country": "Norfolk Island",
-    "countryCode": "NFK",
+    "countryCode": "NF",
     "currencies": [
       {
         "iso": "AUD",
@@ -1715,9 +1715,9 @@
       }
     ]
   },
-  "PRK": {
+  "KP": {
     "country": "North Korea",
-    "countryCode": "PRK",
+    "countryCode": "KP",
     "currencies": [
       {
         "iso": "KPW",
@@ -1726,9 +1726,9 @@
       }
     ]
   },
-  "MNP": {
+  "MP": {
     "country": "Northern Mariana Islands",
-    "countryCode": "MNP",
+    "countryCode": "MP",
     "currencies": [
       {
         "iso": "USD",
@@ -1737,9 +1737,9 @@
       }
     ]
   },
-  "NOR": {
+  "NO": {
     "country": "Norway",
-    "countryCode": "NOR",
+    "countryCode": "NO",
     "currencies": [
       {
         "iso": "NOK",
@@ -1748,9 +1748,9 @@
       }
     ]
   },
-  "OMN": {
+  "OM": {
     "country": "Oman",
-    "countryCode": "OMN",
+    "countryCode": "OM",
     "currencies": [
       {
         "iso": "OMR",
@@ -1759,9 +1759,9 @@
       }
     ]
   },
-  "PAK": {
+  "PK": {
     "country": "Pakistan",
-    "countryCode": "PAK",
+    "countryCode": "PK",
     "currencies": [
       {
         "iso": "PKR",
@@ -1770,9 +1770,9 @@
       }
     ]
   },
-  "PLW": {
+  "PW": {
     "country": "Palau",
-    "countryCode": "PLW",
+    "countryCode": "PW",
     "currencies": [
       {
         "iso": "USD",
@@ -1781,9 +1781,9 @@
       }
     ]
   },
-  "PSE": {
+  "PS": {
     "country": "Palestinian Territory",
-    "countryCode": "PSE",
+    "countryCode": "PS",
     "currencies": [
       {
         "iso": "ILS",
@@ -1792,9 +1792,9 @@
       }
     ]
   },
-  "PAN": {
+  "PA": {
     "country": "Panama",
-    "countryCode": "PAN",
+    "countryCode": "PA",
     "currencies": [
       {
         "iso": "PAB",
@@ -1803,9 +1803,9 @@
       }
     ]
   },
-  "PNG": {
+  "PG": {
     "country": "Papua New Guinea",
-    "countryCode": "PNG",
+    "countryCode": "PG",
     "currencies": [
       {
         "iso": "PGK",
@@ -1814,9 +1814,9 @@
       }
     ]
   },
-  "PRY": {
+  "PY": {
     "country": "Paraguay",
-    "countryCode": "PRY",
+    "countryCode": "PY",
     "currencies": [
       {
         "iso": "PYG",
@@ -1825,9 +1825,9 @@
       }
     ]
   },
-  "PER": {
+  "PE": {
     "country": "Peru",
-    "countryCode": "PER",
+    "countryCode": "PE",
     "currencies": [
       {
         "iso": "PEN",
@@ -1836,9 +1836,9 @@
       }
     ]
   },
-  "PHL": {
+  "PH": {
     "country": "Philippines",
-    "countryCode": "PHL",
+    "countryCode": "PH",
     "currencies": [
       {
         "iso": "PHP",
@@ -1847,9 +1847,9 @@
       }
     ]
   },
-  "PCN": {
+  "PN": {
     "country": "Pitcairn",
-    "countryCode": "PCN",
+    "countryCode": "PN",
     "currencies": [
       {
         "iso": "NZD",
@@ -1858,9 +1858,9 @@
       }
     ]
   },
-  "POL": {
+  "PL": {
     "country": "Poland",
-    "countryCode": "POL",
+    "countryCode": "PL",
     "currencies": [
       {
         "iso": "PLN",
@@ -1869,9 +1869,9 @@
       }
     ]
   },
-  "PRT": {
+  "PT": {
     "country": "Portugal",
-    "countryCode": "PRT",
+    "countryCode": "PT",
     "currencies": [
       {
         "iso": "EUR",
@@ -1880,9 +1880,9 @@
       }
     ]
   },
-  "PRI": {
+  "PR": {
     "country": "Puerto Rico",
-    "countryCode": "PRI",
+    "countryCode": "PR",
     "currencies": [
       {
         "iso": "USD",
@@ -1891,9 +1891,9 @@
       }
     ]
   },
-  "QAT": {
+  "QA": {
     "country": "Qatar",
-    "countryCode": "QAT",
+    "countryCode": "QA",
     "currencies": [
       {
         "iso": "QAR",
@@ -1902,9 +1902,9 @@
       }
     ]
   },
-  "COG": {
+  "CG": {
     "country": "Republic of the Congo",
-    "countryCode": "COG",
+    "countryCode": "CG",
     "currencies": [
       {
         "iso": "XAF",
@@ -1913,9 +1913,9 @@
       }
     ]
   },
-  "REU": {
+  "RE": {
     "country": "Reunion",
-    "countryCode": "REU",
+    "countryCode": "RE",
     "currencies": [
       {
         "iso": "EUR",
@@ -1924,9 +1924,9 @@
       }
     ]
   },
-  "ROU": {
+  "RO": {
     "country": "Romania",
-    "countryCode": "ROU",
+    "countryCode": "RO",
     "currencies": [
       {
         "iso": "RON",
@@ -1935,9 +1935,9 @@
       }
     ]
   },
-  "RUS": {
+  "RU": {
     "country": "Russia",
-    "countryCode": "RUS",
+    "countryCode": "RU",
     "currencies": [
       {
         "iso": "RUB",
@@ -1946,9 +1946,9 @@
       }
     ]
   },
-  "RWA": {
+  "RW": {
     "country": "Rwanda",
-    "countryCode": "RWA",
+    "countryCode": "RW",
     "currencies": [
       {
         "iso": "RWF",
@@ -1957,9 +1957,9 @@
       }
     ]
   },
-  "SHN": {
+  "SH": {
     "country": "Saint Helena",
-    "countryCode": "SHN",
+    "countryCode": "SH",
     "currencies": [
       {
         "iso": "SHP",
@@ -1968,9 +1968,9 @@
       }
     ]
   },
-  "KNA": {
+  "KN": {
     "country": "Saint Kitts and Nevis",
-    "countryCode": "KNA",
+    "countryCode": "KN",
     "currencies": [
       {
         "iso": "XCD",
@@ -1979,9 +1979,9 @@
       }
     ]
   },
-  "LCA": {
+  "LC": {
     "country": "Saint Lucia",
-    "countryCode": "LCA",
+    "countryCode": "LC",
     "currencies": [
       {
         "iso": "XCD",
@@ -1990,9 +1990,9 @@
       }
     ]
   },
-  "SPM": {
+  "PM": {
     "country": "Saint Pierre and Miquelon",
-    "countryCode": "SPM",
+    "countryCode": "PM",
     "currencies": [
       {
         "iso": "EUR",
@@ -2001,9 +2001,9 @@
       }
     ]
   },
-  "VCT": {
+  "VC": {
     "country": "Saint Vincent and the Grenadines",
-    "countryCode": "VCT",
+    "countryCode": "VC",
     "currencies": [
       {
         "iso": "XCD",
@@ -2012,9 +2012,9 @@
       }
     ]
   },
-  "WSM": {
+  "WS": {
     "country": "Samoa",
-    "countryCode": "WSM",
+    "countryCode": "WS",
     "currencies": [
       {
         "iso": "WST",
@@ -2023,9 +2023,9 @@
       }
     ]
   },
-  "SMR": {
+  "SM": {
     "country": "San Marino",
-    "countryCode": "SMR",
+    "countryCode": "SM",
     "currencies": [
       {
         "iso": "EUR",
@@ -2034,9 +2034,9 @@
       }
     ]
   },
-  "STP": {
+  "ST": {
     "country": "Sao Tome and Principe",
-    "countryCode": "STP",
+    "countryCode": "ST",
     "currencies": [
       {
         "iso": "STD",
@@ -2045,9 +2045,9 @@
       }
     ]
   },
-  "SAU": {
+  "SA": {
     "country": "Saudi Arabia",
-    "countryCode": "SAU",
+    "countryCode": "SA",
     "currencies": [
       {
         "iso": "SAR",
@@ -2056,9 +2056,9 @@
       }
     ]
   },
-  "SEN": {
+  "SN": {
     "country": "Senegal",
-    "countryCode": "SEN",
+    "countryCode": "SN",
     "currencies": [
       {
         "iso": "XOF",
@@ -2067,9 +2067,9 @@
       }
     ]
   },
-  "SCG": {
+  "CS": {
     "country": "Serbia and Montenegro",
-    "countryCode": "SCG",
+    "countryCode": "CS",
     "currencies": [
       {
         "iso": "RSD",
@@ -2078,9 +2078,9 @@
       }
     ]
   },
-  "SYC": {
+  "SC": {
     "country": "Seychelles",
-    "countryCode": "SYC",
+    "countryCode": "SC",
     "currencies": [
       {
         "iso": "SCR",
@@ -2089,9 +2089,9 @@
       }
     ]
   },
-  "SLE": {
+  "SL": {
     "country": "Sierra Leone",
-    "countryCode": "SLE",
+    "countryCode": "SL",
     "currencies": [
       {
         "iso": "SLL",
@@ -2100,9 +2100,9 @@
       }
     ]
   },
-  "SGP": {
+  "SG": {
     "country": "Singapore",
-    "countryCode": "SGP",
+    "countryCode": "SG",
     "currencies": [
       {
         "iso": "SGD",
@@ -2111,9 +2111,9 @@
       }
     ]
   },
-  "SVK": {
+  "SK": {
     "country": "Slovakia",
-    "countryCode": "SVK",
+    "countryCode": "SK",
     "currencies": [
       {
         "iso": "SKK",
@@ -2122,9 +2122,9 @@
       }
     ]
   },
-  "SVN": {
+  "SI": {
     "country": "Slovenia",
-    "countryCode": "SVN",
+    "countryCode": "SI",
     "currencies": [
       {
         "iso": "EUR",
@@ -2133,9 +2133,9 @@
       }
     ]
   },
-  "SLB": {
+  "SB": {
     "country": "Solomon Islands",
-    "countryCode": "SLB",
+    "countryCode": "SB",
     "currencies": [
       {
         "iso": "SBD",
@@ -2144,9 +2144,9 @@
       }
     ]
   },
-  "SOM": {
+  "SO": {
     "country": "Somalia",
-    "countryCode": "SOM",
+    "countryCode": "SO",
     "currencies": [
       {
         "iso": "SOS",
@@ -2155,9 +2155,9 @@
       }
     ]
   },
-  "ZAF": {
+  "ZA": {
     "country": "South Africa",
-    "countryCode": "ZAF",
+    "countryCode": "ZA",
     "currencies": [
       {
         "iso": "ZAR",
@@ -2166,9 +2166,9 @@
       }
     ]
   },
-  "SGS": {
+  "GS": {
     "country": "South Georgia and the South Sandwich Islands",
-    "countryCode": "SGS",
+    "countryCode": "GS",
     "currencies": [
       {
         "iso": "GBP",
@@ -2177,9 +2177,9 @@
       }
     ]
   },
-  "KOR": {
+  "KR": {
     "country": "South Korea",
-    "countryCode": "KOR",
+    "countryCode": "KR",
     "currencies": [
       {
         "iso": "KRW",
@@ -2188,9 +2188,9 @@
       }
     ]
   },
-  "ESP": {
+  "ES": {
     "country": "Spain",
-    "countryCode": "ESP",
+    "countryCode": "ES",
     "currencies": [
       {
         "iso": "EUR",
@@ -2199,9 +2199,9 @@
       }
     ]
   },
-  "LKA": {
+  "LK": {
     "country": "Sri Lanka",
-    "countryCode": "LKA",
+    "countryCode": "LK",
     "currencies": [
       {
         "iso": "LKR",
@@ -2210,9 +2210,9 @@
       }
     ]
   },
-  "SDN": {
+  "SD": {
     "country": "Sudan",
-    "countryCode": "SDN",
+    "countryCode": "SD",
     "currencies": [
       {
         "iso": "SDD",
@@ -2221,9 +2221,9 @@
       }
     ]
   },
-  "SUR": {
+  "SR": {
     "country": "Suriname",
-    "countryCode": "SUR",
+    "countryCode": "SR",
     "currencies": [
       {
         "iso": "SRD",
@@ -2232,9 +2232,9 @@
       }
     ]
   },
-  "SJM": {
+  "SJ": {
     "country": "Svalbard and Jan Mayen",
-    "countryCode": "SJM",
+    "countryCode": "SJ",
     "currencies": [
       {
         "iso": "NOK",
@@ -2243,9 +2243,9 @@
       }
     ]
   },
-  "SWZ": {
+  "SZ": {
     "country": "Swaziland",
-    "countryCode": "SWZ",
+    "countryCode": "SZ",
     "currencies": [
       {
         "iso": "SZL",
@@ -2254,9 +2254,9 @@
       }
     ]
   },
-  "SWE": {
+  "SE": {
     "country": "Sweden",
-    "countryCode": "SWE",
+    "countryCode": "SE",
     "currencies": [
       {
         "iso": "SEK",
@@ -2265,9 +2265,9 @@
       }
     ]
   },
-  "CHE": {
+  "CH": {
     "country": "Switzerland",
-    "countryCode": "CHE",
+    "countryCode": "CH",
     "currencies": [
       {
         "iso": "CHF",
@@ -2276,9 +2276,9 @@
       }
     ]
   },
-  "SYR": {
+  "SY": {
     "country": "Syria",
-    "countryCode": "SYR",
+    "countryCode": "SY",
     "currencies": [
       {
         "iso": "SYP",
@@ -2287,9 +2287,9 @@
       }
     ]
   },
-  "TWN": {
+  "TW": {
     "country": "Taiwan",
-    "countryCode": "TWN",
+    "countryCode": "TW",
     "currencies": [
       {
         "iso": "TWD",
@@ -2298,9 +2298,9 @@
       }
     ]
   },
-  "TJK": {
+  "TJ": {
     "country": "Tajikistan",
-    "countryCode": "TJK",
+    "countryCode": "TJ",
     "currencies": [
       {
         "iso": "TJS",
@@ -2309,9 +2309,9 @@
       }
     ]
   },
-  "TZA": {
+  "TZ": {
     "country": "Tanzania",
-    "countryCode": "TZA",
+    "countryCode": "TZ",
     "currencies": [
       {
         "iso": "TZS",
@@ -2320,9 +2320,9 @@
       }
     ]
   },
-  "THA": {
+  "TH": {
     "country": "Thailand",
-    "countryCode": "THA",
+    "countryCode": "TH",
     "currencies": [
       {
         "iso": "THB",
@@ -2331,9 +2331,9 @@
       }
     ]
   },
-  "TGO": {
+  "TG": {
     "country": "Togo",
-    "countryCode": "TGO",
+    "countryCode": "TG",
     "currencies": [
       {
         "iso": "XOF",
@@ -2342,9 +2342,9 @@
       }
     ]
   },
-  "TKL": {
+  "TK": {
     "country": "Tokelau",
-    "countryCode": "TKL",
+    "countryCode": "TK",
     "currencies": [
       {
         "iso": "NZD",
@@ -2353,9 +2353,9 @@
       }
     ]
   },
-  "TON": {
+  "TO": {
     "country": "Tonga",
-    "countryCode": "TON",
+    "countryCode": "TO",
     "currencies": [
       {
         "iso": "TOP",
@@ -2364,9 +2364,9 @@
       }
     ]
   },
-  "TTO": {
+  "TT": {
     "country": "Trinidad and Tobago",
-    "countryCode": "TTO",
+    "countryCode": "TT",
     "currencies": [
       {
         "iso": "TTD",
@@ -2375,9 +2375,9 @@
       }
     ]
   },
-  "TUN": {
+  "TN": {
     "country": "Tunisia",
-    "countryCode": "TUN",
+    "countryCode": "TN",
     "currencies": [
       {
         "iso": "TND",
@@ -2386,9 +2386,9 @@
       }
     ]
   },
-  "TUR": {
+  "TR": {
     "country": "Turkey",
-    "countryCode": "TUR",
+    "countryCode": "TR",
     "currencies": [
       {
         "iso": "TRY",
@@ -2397,9 +2397,9 @@
       }
     ]
   },
-  "TKM": {
+  "TM": {
     "country": "Turkmenistan",
-    "countryCode": "TKM",
+    "countryCode": "TM",
     "currencies": [
       {
         "iso": "TMM",
@@ -2408,9 +2408,9 @@
       }
     ]
   },
-  "TCA": {
+  "TC": {
     "country": "Turks and Caicos Islands",
-    "countryCode": "TCA",
+    "countryCode": "TC",
     "currencies": [
       {
         "iso": "USD",
@@ -2419,9 +2419,9 @@
       }
     ]
   },
-  "TUV": {
+  "TV": {
     "country": "Tuvalu",
-    "countryCode": "TUV",
+    "countryCode": "TV",
     "currencies": [
       {
         "iso": "AUD",
@@ -2430,9 +2430,9 @@
       }
     ]
   },
-  "VIR": {
+  "VI": {
     "country": "U.S. Virgin Islands",
-    "countryCode": "VIR",
+    "countryCode": "VI",
     "currencies": [
       {
         "iso": "USD",
@@ -2441,9 +2441,9 @@
       }
     ]
   },
-  "UGA": {
+  "UG": {
     "country": "Uganda",
-    "countryCode": "UGA",
+    "countryCode": "UG",
     "currencies": [
       {
         "iso": "UGX",
@@ -2452,9 +2452,9 @@
       }
     ]
   },
-  "UKR": {
+  "UA": {
     "country": "Ukraine",
-    "countryCode": "UKR",
+    "countryCode": "UA",
     "currencies": [
       {
         "iso": "UAH",
@@ -2463,9 +2463,9 @@
       }
     ]
   },
-  "ARE": {
+  "AE": {
     "country": "United Arab Emirates",
-    "countryCode": "ARE",
+    "countryCode": "AE",
     "currencies": [
       {
         "iso": "AED",
@@ -2474,9 +2474,9 @@
       }
     ]
   },
-  "GBR": {
+  "GB": {
     "country": "United Kingdom",
-    "countryCode": "GBR",
+    "countryCode": "GB",
     "currencies": [
       {
         "iso": "GBP",
@@ -2485,9 +2485,9 @@
       }
     ]
   },
-  "USA": {
+  "US": {
     "country": "United States",
-    "countryCode": "USA",
+    "countryCode": "US",
     "currencies": [
       {
         "iso": "USD",
@@ -2496,9 +2496,9 @@
       }
     ]
   },
-  "UMI": {
+  "UM": {
     "country": "United States Minor Outlying Islands",
-    "countryCode": "UMI",
+    "countryCode": "UM",
     "currencies": [
       {
         "iso": "USD",
@@ -2507,9 +2507,9 @@
       }
     ]
   },
-  "URY": {
+  "UY": {
     "country": "Uruguay",
-    "countryCode": "URY",
+    "countryCode": "UY",
     "currencies": [
       {
         "iso": "UYU",
@@ -2518,9 +2518,9 @@
       }
     ]
   },
-  "UZB": {
+  "UZ": {
     "country": "Uzbekistan",
-    "countryCode": "UZB",
+    "countryCode": "UZ",
     "currencies": [
       {
         "iso": "UZS",
@@ -2529,9 +2529,9 @@
       }
     ]
   },
-  "VUT": {
+  "VU": {
     "country": "Vanuatu",
-    "countryCode": "VUT",
+    "countryCode": "VU",
     "currencies": [
       {
         "iso": "VUV",
@@ -2540,9 +2540,9 @@
       }
     ]
   },
-  "VAT": {
+  "VA": {
     "country": "Vatican",
-    "countryCode": "VAT",
+    "countryCode": "VA",
     "currencies": [
       {
         "iso": "EUR",
@@ -2551,9 +2551,9 @@
       }
     ]
   },
-  "VEN": {
+  "VE": {
     "country": "Venezuela",
-    "countryCode": "VEN",
+    "countryCode": "VE",
     "currencies": [
       {
         "iso": "VEF",
@@ -2562,9 +2562,9 @@
       }
     ]
   },
-  "VNM": {
+  "VN": {
     "country": "Vietnam",
-    "countryCode": "VNM",
+    "countryCode": "VN",
     "currencies": [
       {
         "iso": "VND",
@@ -2573,9 +2573,9 @@
       }
     ]
   },
-  "WLF": {
+  "WF": {
     "country": "Wallis and Futuna",
-    "countryCode": "WLF",
+    "countryCode": "WF",
     "currencies": [
       {
         "iso": "XPF",
@@ -2584,9 +2584,9 @@
       }
     ]
   },
-  "ESH": {
+  "EH": {
     "country": "Western Sahara",
-    "countryCode": "ESH",
+    "countryCode": "EH",
     "currencies": [
       {
         "iso": "MAD",
@@ -2595,9 +2595,9 @@
       }
     ]
   },
-  "YEM": {
+  "YE": {
     "country": "Yemen",
-    "countryCode": "YEM",
+    "countryCode": "YE",
     "currencies": [
       {
         "iso": "YER",
@@ -2606,9 +2606,9 @@
       }
     ]
   },
-  "ZMB": {
+  "ZM": {
     "country": "Zambia",
-    "countryCode": "ZMB",
+    "countryCode": "ZM",
     "currencies": [
       {
         "iso": "ZMK",
@@ -2617,9 +2617,9 @@
       }
     ]
   },
-  "ZWE": {
+  "ZW": {
     "country": "Zimbabwe",
-    "countryCode": "ZWE",
+    "countryCode": "ZW",
     "currencies": [
       {
         "iso": "ZWD",

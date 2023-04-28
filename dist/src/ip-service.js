@@ -17,6 +17,8 @@ const axios_1 = __importDefault(require("axios"));
 const currencies_json_1 = __importDefault(require("./currencies.json"));
 const countries_geo_json_1 = __importDefault(require("./countries-geo.json"));
 const pick_1 = __importDefault(require("lodash/pick"));
+const omit_1 = __importDefault(require("lodash/omit"));
+const schemas_1 = require("@/schemas");
 const FIXER_API_KEY = "xIWbbNF3uTKz3T6U43eP20MUW58yUCPQ";
 const fixerClient = axios_1.default.create({
     baseURL: 'https://api.apilayer.com/fixer/',
@@ -24,15 +26,17 @@ const fixerClient = axios_1.default.create({
 });
 const traceIp = (ip) => __awaiter(void 0, void 0, void 0, function* () {
     const ipData = (yield (0, exports.getIpData)(ip)).data;
-    return {
+    const trace = new schemas_1.Trace({
         ip,
         name: ipData.country,
         code: ipData.countryCode,
         lat: ipData.lat,
         lon: ipData.lon,
         currencies: yield getCurrencies(ipData.countryCode),
-        distance_to_usa: yield getDistanceToUSA(ipData.countryCode)
-    };
+        distance_to_usa: getDistanceToUSA(ipData.countryCode)
+    });
+    yield trace.save();
+    return (0, omit_1.default)(trace, ['_id', '__v']);
 });
 exports.traceIp = traceIp;
 const getIpData = (ip) => axios_1.default.get(`http://ip-api.com/json/${ip}?fields=57539`);
@@ -222,7 +226,6 @@ const cachedrates = {
 };
 const getConversionRateToUSD = (currencyCode) => __awaiter(void 0, void 0, void 0, function* () {
     const latestRates = cachedrates; //(await fixerClient.get(`latest?base=USD`)).data
-    console.log(currencyCode, latestRates.rates);
     // @ts-ignore
     return latestRates.rates[currencyCode];
 });

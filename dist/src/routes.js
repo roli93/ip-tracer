@@ -39,7 +39,14 @@ const express_1 = __importDefault(require("express"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const body_parser_1 = __importDefault(require("body-parser"));
 const iPservice = __importStar(require("./ip-service"));
+const mongoose_1 = __importDefault(require("mongoose"));
 dotenv_1.default.config();
+main().catch(err => console.log(err));
+function main() {
+    return __awaiter(this, void 0, void 0, function* () {
+        yield mongoose_1.default.connect('mongodb+srv://iptracer:zhdPXTVsBmuxLX5M@playgroundcluster.jmsy7ro.mongodb.net/?retryWrites=true&w=majority');
+    });
+}
 const app = (0, express_1.default)();
 app.use(body_parser_1.default.json());
 app.post('/traces', (req, res) => __awaiter(void 0, void 0, void 0, function* () {

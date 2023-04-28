@@ -2,6 +2,8 @@ import axios from 'axios';
 import currencies from './currencies.json'
 import countriesGeo from './countries-geo.json'
 import pick from 'lodash/pick'
+import omit from 'lodash/omit'
+import {Trace} from "@/schemas";
 
 type CountryCode = keyof typeof currencies & keyof typeof countriesGeo;
 
@@ -15,15 +17,17 @@ const fixerClient = axios.create({
 
 export const traceIp = async (ip: string) => {
     const ipData: any = (await getIpData(ip)).data
-    return {
+    const trace = new Trace({
         ip,
         name: ipData.country,
         code: ipData.countryCode,
         lat: ipData.lat,
         lon: ipData.lon,
         currencies: await getCurrencies(ipData.countryCode),
-        distance_to_usa: await getDistanceToUSA(ipData.countryCode)
-    }
+        distance_to_usa: getDistanceToUSA(ipData.countryCode)
+    })
+    await trace.save()
+    return omit(trace, ['_id', '__v']);
 }
 
 export const getIpData = (ip: string) => axios.get(`http://ip-api.com/json/${ip}?fields=57539`)
@@ -216,7 +220,6 @@ const cachedrates = {
 
 const getConversionRateToUSD = async (currencyCode: string) => {
     const latestRates = cachedrates //(await fixerClient.get(`latest?base=USD`)).data
-    console.log(currencyCode, latestRates.rates)
     // @ts-ignore
     return latestRates.rates[currencyCode]
 }

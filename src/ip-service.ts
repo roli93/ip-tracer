@@ -3,7 +3,7 @@ import currencies from './currencies.json'
 import countriesGeo from './countries-geo.json'
 import pick from 'lodash/pick'
 import omit from 'lodash/omit'
-import {Trace} from "@/schemas";
+import {Country, ITrace, Trace} from "@/schemas";
 
 type CountryCode = keyof typeof currencies & keyof typeof countriesGeo;
 
@@ -27,6 +27,7 @@ export const traceIp = async (ip: string) => {
         distance_to_usa: getDistanceToUSA(ipData.countryCode)
     })
     await trace.save()
+    updateStats(trace)
     return omit(trace, ['_id', '__v']);
 }
 
@@ -233,15 +234,39 @@ const getDistanceToUSA = (countryCode: CountryCode) => {
 //Taken from https://ip-api.com/docs/api:json
 const getDistanceFromLatLonInKm = (lat1: number, lon1: number, lat2: number, lon2: number) => {
     let R = 6371; // Radius of the earth in km
-    let dLat = deg2rad(lat2-lat1);  // deg2rad below
-    let dLon = deg2rad(lon2-lon1);
+    let dLat = deg2rad(lat2 - lat1);  // deg2rad below
+    let dLon = deg2rad(lon2 - lon1);
     let a =
-        Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
         Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
-        Math.sin(dLon/2) * Math.sin(dLon/2);
-    let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-     // Distance in km
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    // Distance in km
     return R * c;
 }
 
-const deg2rad = (deg: number) => deg * (Math.PI/180)
+const deg2rad = (deg: number) => deg * (Math.PI / 180)
+
+const updateStats =  async (trace: ITrace) => {
+    await Country.updateOne(
+        {name: trace.name},
+        {'$inc': {traces: 1}, '$set':{distance: trace.distance_to_usa}},
+        {upsert: true}
+    )
+}
+
+export const getFarthestCountry = async () => {
+    const farthestCountry = (await Country.aggregate().sort({distance:1}).limit(1).exec())[0]
+    return {
+        country: farthestCountry.name,
+        value: farthestCountry.distance
+    }
+}
+
+export const getMostTracedCountry = async () => {
+    const mostTracedCoountry = (await Country.aggregate().sort({traces:1}).limit(1).exec())[0]
+    return {
+        country: mostTracedCoountry.name,
+        value: mostTracedCoountry.traces
+    }
+}

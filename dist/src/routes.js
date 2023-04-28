@@ -40,6 +40,7 @@ const dotenv_1 = __importDefault(require("dotenv"));
 const body_parser_1 = __importDefault(require("body-parser"));
 const iPservice = __importStar(require("./ip-service"));
 const mongoose_1 = __importDefault(require("mongoose"));
+const ip_service_1 = require("./ip-service");
 dotenv_1.default.config();
 main().catch(err => console.log(err));
 function main() {
@@ -53,5 +54,12 @@ app.post('/traces', (req, res) => __awaiter(void 0, void 0, void 0, function* ()
     const ip = req.body.ip;
     const trace = yield iPservice.traceIp(ip);
     res.send(trace);
+}));
+app.get('/statistics', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const stats = {
+        longest_distance: yield (0, ip_service_1.getFarthestCountry)(),
+        most_traced: yield (0, ip_service_1.getMostTracedCountry)()
+    };
+    res.send(stats);
 }));
 exports.default = app;

@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getIpData = exports.traceIp = void 0;
+exports.getMostTracedCountry = exports.getFarthestCountry = exports.getIpData = exports.traceIp = void 0;
 const axios_1 = __importDefault(require("axios"));
 const currencies_json_1 = __importDefault(require("./currencies.json"));
 const countries_geo_json_1 = __importDefault(require("./countries-geo.json"));
@@ -36,6 +36,7 @@ const traceIp = (ip) => __awaiter(void 0, void 0, void 0, function* () {
         distance_to_usa: getDistanceToUSA(ipData.countryCode)
     });
     yield trace.save();
+    updateStats(trace);
     return (0, omit_1.default)(trace, ['_id', '__v']);
 });
 exports.traceIp = traceIp;
@@ -247,3 +248,22 @@ const getDistanceFromLatLonInKm = (lat1, lon1, lat2, lon2) => {
     return R * c;
 };
 const deg2rad = (deg) => deg * (Math.PI / 180);
+const updateStats = (trace) => __awaiter(void 0, void 0, void 0, function* () {
+    yield schemas_1.Country.updateOne({ name: trace.name }, { '$inc': { traces: 1 }, '$set': { distance: trace.distance_to_usa } }, { upsert: true });
+});
+const getFarthestCountry = () => __awaiter(void 0, void 0, void 0, function* () {
+    const farthestCountry = (yield schemas_1.Country.aggregate().sort({ distance: 1 }).limit(1).exec())[0];
+    return {
+        country: farthestCountry.name,
+        value: farthestCountry.distance
+    };
+});
+exports.getFarthestCountry = getFarthestCountry;
+const getMostTracedCountry = () => __awaiter(void 0, void 0, void 0, function* () {
+    const mostTracedCoountry = (yield schemas_1.Country.aggregate().sort({ traces: 1 }).limit(1).exec())[0];
+    return {
+        country: mostTracedCoountry.name,
+        value: mostTracedCoountry.traces
+    };
+});
+exports.getMostTracedCountry = getMostTracedCountry;

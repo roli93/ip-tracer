@@ -4,6 +4,7 @@ import countriesGeo from './countries-geo.json'
 import pick from 'lodash/pick'
 import omit from 'lodash/omit'
 import {Country, ITrace, Trace} from "@/schemas";
+import {Error} from 'mongoose';
 
 type CountryCode = keyof typeof currencies & keyof typeof countriesGeo;
 
@@ -27,7 +28,7 @@ export const traceIp = async (ip: string) => {
         distance_to_usa: getDistanceToUSA(ipData.countryCode)
     })
     await trace.save()
-    updateStats(trace)
+    retryTimes(5)(() => updateStats(trace))
     return omit(trace, ['_id', '__v']);
 }
 
@@ -253,6 +254,18 @@ const updateStats =  async (trace: ITrace) => {
         {'$inc': {traces: 1}, '$set':{distance: trace.distance_to_usa}},
         {upsert: true}
     )
+}
+
+const retryTimes = (times: number) => (operation: () => any) => {
+    try{
+        if(times > 0){
+            return operation()
+        }
+    } catch(e){
+        if(e instanceof Error.VersionError){
+            retryTimes(times -1)(operation)
+        }
+    }
 }
 
 export const getFarthestCountry = async () => {

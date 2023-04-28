@@ -19,6 +19,7 @@ const countries_geo_json_1 = __importDefault(require("./countries-geo.json"));
 const pick_1 = __importDefault(require("lodash/pick"));
 const omit_1 = __importDefault(require("lodash/omit"));
 const schemas_1 = require("@/schemas");
+const mongoose_1 = require("mongoose");
 const FIXER_API_KEY = "xIWbbNF3uTKz3T6U43eP20MUW58yUCPQ";
 const fixerClient = axios_1.default.create({
     baseURL: 'https://api.apilayer.com/fixer/',
@@ -36,7 +37,7 @@ const traceIp = (ip) => __awaiter(void 0, void 0, void 0, function* () {
         distance_to_usa: getDistanceToUSA(ipData.countryCode)
     });
     yield trace.save();
-    updateStats(trace);
+    retryTimes(5)(() => updateStats(trace));
     return (0, omit_1.default)(trace, ['_id', '__v']);
 });
 exports.traceIp = traceIp;
@@ -251,6 +252,18 @@ const deg2rad = (deg) => deg * (Math.PI / 180);
 const updateStats = (trace) => __awaiter(void 0, void 0, void 0, function* () {
     yield schemas_1.Country.updateOne({ name: trace.name }, { '$inc': { traces: 1 }, '$set': { distance: trace.distance_to_usa } }, { upsert: true });
 });
+const retryTimes = (times) => (operation) => {
+    try {
+        if (times > 0) {
+            return operation();
+        }
+    }
+    catch (e) {
+        if (e instanceof mongoose_1.Error.VersionError) {
+            retryTimes(times - 1)(operation);
+        }
+    }
+};
 const getFarthestCountry = () => __awaiter(void 0, void 0, void 0, function* () {
     const farthestCountry = (yield schemas_1.Country.aggregate().sort({ distance: 1 }).limit(1).exec())[0];
     return {

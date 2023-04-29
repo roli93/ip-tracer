@@ -51,5 +51,7 @@ This document is a summary of the design decisions and considerations taken into
     9. To group statistics by country, they are updated every time a new ip is traced. Doing this could introduce the threat of concurrency, where a country is updated in between another service instance was reading it. Initially an optimistic locking approach with retries was implemented, but this was removed in favor of atomic updates made by MongoDB.
 5. Misc:
     10. Routes.ts could be split into separate files for routes, controller and server when it grows.
-    11. Error handling has been implemented to a very basic extent.
-    12.     12. Testing hasn't been included for speed reasons, but a real productive application should test APIs from a functional standpoint, concurrency mechanisms and load testing 
+    11. Error handling has been implemented to a very basic extent. 
+    12. Testing hasn't been included for speed reasons, but a real productive application should test APIs from a functional standpoint, concurrency mechanisms and load testing
+    13. App was deployed to https://ip-tracer-384420.rj.r.appspot.com but Mongo DB Atlas 
+    14. Secrets are not correctly secured for simplicity and just included in the env file.

@@ -19,16 +19,33 @@ const last_1 = __importDefault(require("lodash/last"));
 const httpClient = axios_1.default.create({
     baseURL: 'http://ip-api.com/',
 });
-// export const getIpData = async (ip: string) => {
-//     const response = await httpClient.get(`json/${ip}?fields=57539`)
-//     return response.data
-// }
+const MAX_BATCH_SIZE = 2;
+const MIN_BATCH_WINDOW_MS = 4000;
+const INITIAL_SIMPLE_REQUESTS = 60;
+const queue = [];
+let simpleRequestsLeft = INITIAL_SIMPLE_REQUESTS;
 const getIpData = (ip) => __awaiter(void 0, void 0, void 0, function* () {
-    const ipsResult = yield queueIp(ip);
-    return ipsResult.find((r) => r.query === ip);
+    if (simpleRequestsLeft && simpleRequestsLeft > 0) {
+        const response = yield httpClient.get(`json/${ip}?fields=57539`);
+        simpleRequestsLeft = parseInt(response.headers['x-rl']) - 40;
+        if (simpleRequestsLeft === 0) {
+            const simpleRequestsSecondsToReset = parseInt(response.headers['x-ttl']);
+            setTimeout(() => {
+                simpleRequestsLeft = INITIAL_SIMPLE_REQUESTS;
+            }, simpleRequestsSecondsToReset * 1000);
+        }
+        return response.data;
+    }
+    else {
+        const ipsResult = yield queueIp(ip);
+        return ipsResult.find((r) => r.query === ip);
+    }
 });
 exports.getIpData = getIpData;
-const queue = [];
+// export const getIpData = async (ip: string) => {
+//     const ipsResult = await queueIp(ip);
+//     return ipsResult.find((r: { query: string; }) => r.query === ip)
+// }
 class IpBatch {
     constructor(ips) {
         this.ips = ips;
@@ -38,7 +55,7 @@ class IpBatch {
         this.resultPromise = Promise.race([this.windowElapsedPromise, this.batchFullPromise]);
     }
     isFull() {
-        return this.ips.length === 2;
+        return this.ips.length === MAX_BATCH_SIZE;
     }
     addIp(ip) {
         this.ips.push(ip);
@@ -52,7 +69,7 @@ class IpBatch {
                 if (!this.resolved) {
                     (0, exports.loadIpBatch)(this.ips).then(res).catch(rej).finally(this.resolve.bind(this));
                 }
-            }, 10000);
+            }, MIN_BATCH_WINDOW_MS);
         });
     }
     makeFullPromise() {

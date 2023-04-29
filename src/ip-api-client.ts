@@ -7,19 +7,35 @@ const httpClient = axios.create({
     baseURL: 'http://ip-api.com/',
 });
 
-// export const getIpData = async (ip: string) => {
-//     const response = await httpClient.get(`json/${ip}?fields=57539`)
-//     return response.data
-// }
-
-export const getIpData = async (ip: string) => {
-    const ipsResult = await queueIp(ip);
-    return ipsResult.find((r: { query: string; }) => r.query === ip)
-}
-
+const MAX_BATCH_SIZE = 2;
+const MIN_BATCH_WINDOW_MS = 4000;
+const INITIAL_SIMPLE_REQUESTS = 60;
 
 const queue: IpBatch[] = [];
 
+let simpleRequestsLeft: number = INITIAL_SIMPLE_REQUESTS;
+
+export const getIpData = async (ip: string) => {
+    if(simpleRequestsLeft && simpleRequestsLeft > 0){
+        const response = await httpClient.get(`json/${ip}?fields=57539`)
+        simpleRequestsLeft = parseInt(response.headers['x-rl']) - 40
+        if(simpleRequestsLeft === 0){
+            const simpleRequestsSecondsToReset = parseInt(response.headers['x-ttl'])
+            setTimeout(() => {
+                simpleRequestsLeft = INITIAL_SIMPLE_REQUESTS;
+            }, simpleRequestsSecondsToReset * 1000)
+        }
+        return response.data
+    } else {
+        const ipsResult = await queueIp(ip);
+        return ipsResult.find((r: { query: string; }) => r.query === ip)
+    }
+}
+
+// export const getIpData = async (ip: string) => {
+//     const ipsResult = await queueIp(ip);
+//     return ipsResult.find((r: { query: string; }) => r.query === ip)
+// }
 
 class IpBatch {
     ips: string[];
@@ -38,7 +54,7 @@ class IpBatch {
     }
 
     isFull(){
-        return this.ips.length === 2;
+        return this.ips.length === MAX_BATCH_SIZE;
     }
 
     addIp(ip: string){
@@ -54,7 +70,7 @@ class IpBatch {
                 if(!this.resolved){
                     loadIpBatch(this.ips).then(res).catch(rej).finally(this.resolve.bind(this))
                 }
-            },10000)
+            },MIN_BATCH_WINDOW_MS)
         })
     }
 

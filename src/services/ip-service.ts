@@ -1,12 +1,12 @@
 import axios from 'axios';
-import currencies from './currencies.json'
-import countriesGeo from './countries-geo.json'
+import currencies from '../statics/currencies.json'
+import countriesGeo from '../statics/countries-geo.json'
 import pick from 'lodash/pick'
 import omit from 'lodash/omit'
 import {Country, ITrace, Trace} from "@/schemas";
 import {Error} from 'mongoose';
-import * as ipApiClient from "@/ip-api-client";
-import * as fixerClient from "@/fixer-client";
+import * as ipApiClient from "@/http-clients/ip-api-client";
+import * as fixerClient from "@/http-clients/fixer-client";
 
 type CountryCode = keyof typeof currencies & keyof typeof countriesGeo;
 
@@ -72,22 +72,6 @@ const retryTimes = (times: number) => (operation: () => any) => {
         if(e instanceof Error.VersionError){
             retryTimes(times -1)(operation)
         }
-    }
-}
-
-export const getFarthestCountry = async () => {
-    const farthestCountry = (await Country.aggregate().sort({distance:1}).limit(1).exec())[0]
-    return {
-        country: farthestCountry.name,
-        value: farthestCountry.distance
-    }
-}
-
-export const getMostTracedCountry = async () => {
-    const mostTracedCoountry = (await Country.aggregate().sort({traces:1}).limit(1).exec())[0]
-    return {
-        country: mostTracedCoountry.name,
-        value: mostTracedCoountry.traces
     }
 }
 

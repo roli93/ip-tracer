@@ -1,8 +1,8 @@
 import remove from "lodash/remove";
-import {loadIpBatch} from "@/ip-api-client";
+import {loadIpBatch} from "@/http-clients/ip-api-client";
 
 const MAX_BATCH_SIZE = 2;
-const MIN_BATCH_WINDOW_MS = 4000;
+const MIN_BATCH_WINDOW_MS = 10000;
 
 export class IpBatch {
     ips: string[];

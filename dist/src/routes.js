@@ -38,9 +38,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const body_parser_1 = __importDefault(require("body-parser"));
-const iPservice = __importStar(require("./ip-service"));
+const iPservice = __importStar(require("./services/ip-service"));
 const mongoose_1 = __importDefault(require("mongoose"));
-const ip_service_1 = require("./ip-service");
+const stats_service_1 = require("./services/stats-service");
 dotenv_1.default.config();
 main().catch(err => console.log(err));
 function main() {
@@ -52,14 +52,24 @@ const app = (0, express_1.default)();
 app.use(body_parser_1.default.json());
 app.post('/traces', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const ip = req.body.ip;
-    const trace = yield iPservice.traceIp(ip);
-    res.send(trace);
+    try {
+        const trace = yield iPservice.traceIp(ip);
+        res.send(trace);
+    }
+    catch (e) {
+        res.status(502).send({ error: e.message ? e.message : "Unknown error" });
+    }
 }));
 app.get('/statistics', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const stats = {
-        longest_distance: yield (0, ip_service_1.getFarthestCountry)(),
-        most_traced: yield (0, ip_service_1.getMostTracedCountry)()
-    };
-    res.send(stats);
+    try {
+        const stats = {
+            longest_distance: yield (0, stats_service_1.getFarthestCountry)(),
+            most_traced: yield (0, stats_service_1.getMostTracedCountry)()
+        };
+        res.send(stats);
+    }
+    catch (e) {
+        res.status(502).send({ error: e.message ? e.message : "Unknown error" });
+    }
 }));
 exports.default = app;

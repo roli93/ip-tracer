@@ -1,8 +1,6 @@
 import axios from 'axios';
-import isEmpty from 'lodash/isEmpty'
-import remove from 'lodash/remove'
 import last from 'lodash/last'
-import {IpBatch} from "@/ip-batch";
+import {IpBatch} from "@/http-clients/batch/ip-batch";
 
 const httpClient = axios.create({
     baseURL: 'http://ip-api.com/',

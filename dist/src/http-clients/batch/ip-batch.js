@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IpBatch = void 0;
 const remove_1 = __importDefault(require("lodash/remove"));
-const ip_api_client_1 = require("@/ip-api-client");
+const ip_api_client_1 = require("@/http-clients/ip-api-client");
 const MAX_BATCH_SIZE = 2;
 const MIN_BATCH_WINDOW_MS = 10000;
 class IpBatch {

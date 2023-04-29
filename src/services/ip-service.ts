@@ -22,7 +22,7 @@ export const traceIp = async (ip: string) => {
         distance_to_usa: getDistanceToUSA(ipData.countryCode)
     })
     await trace.save()
-    retryTimes(5)(() => updateStats(trace))
+    updateStats(trace)
     return omit(trace, ['_id', '__v']);
 }
 
@@ -63,16 +63,6 @@ const updateStats =  async (trace: ITrace) => {
     )
 }
 
-const retryTimes = (times: number) => (operation: () => any) => {
-    try{
-        if(times > 0){
-            return operation()
-        }
-    } catch(e){
-        if(e instanceof Error.VersionError){
-            retryTimes(times -1)(operation)
-        }
-    }
-}
+
 
 

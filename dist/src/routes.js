@@ -37,12 +37,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const dotenv_1 = __importDefault(require("dotenv"));
+dotenv_1.default.config();
 const body_parser_1 = __importDefault(require("body-parser"));
 const iPservice = __importStar(require("./services/ip-service"));
 const mongoose_1 = __importDefault(require("mongoose"));
 const stats_service_1 = require("./services/stats-service");
 const Process = __importStar(require("process"));
-dotenv_1.default.config();
 main().catch(err => console.log(err));
 function main() {
     return __awaiter(this, void 0, void 0, function* () {

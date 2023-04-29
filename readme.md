@@ -52,3 +52,4 @@ This document is a summary of the design decisions and considerations taken into
 5. Misc:
     10. Routes.ts could be split into separate files for routes, controller and server when it grows.
     11. Error handling has been implemented to a very basic extent.
+    12.     12. Testing hasn't been included for speed reasons, but a real productive application should test APIs from a functional standpoint, concurrency mechanisms and load testing 

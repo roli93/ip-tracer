@@ -41,11 +41,12 @@ const body_parser_1 = __importDefault(require("body-parser"));
 const iPservice = __importStar(require("./services/ip-service"));
 const mongoose_1 = __importDefault(require("mongoose"));
 const stats_service_1 = require("./services/stats-service");
+const Process = __importStar(require("process"));
 dotenv_1.default.config();
 main().catch(err => console.log(err));
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        yield mongoose_1.default.connect('mongodb+srv://iptracer:zhdPXTVsBmuxLX5M@playgroundcluster.jmsy7ro.mongodb.net/?retryWrites=true&w=majority');
+        yield mongoose_1.default.connect(Process.env.MONGO_CONNECTION || "");
     });
 }
 const app = (0, express_1.default)();

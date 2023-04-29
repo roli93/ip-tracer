@@ -1,12 +1,13 @@
 import axios from 'axios';
 import last from 'lodash/last'
 import {IpBatch} from "@/http-clients/batch/ip-batch";
+import Process from "process";
 
 const httpClient = axios.create({
-    baseURL: 'http://ip-api.com/',
+    baseURL: Process.env.IP_API_URL,
 });
 
-const INITIAL_SIMPLE_REQUESTS = 60;
+const INITIAL_SIMPLE_REQUESTS = parseInt(Process.env.INITIAL_SIMPLE_REQUESTS || "45")
 
 const queue: IpBatch[] = [];
 

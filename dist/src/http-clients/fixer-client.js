@@ -15,10 +15,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getConversionRateToUSD = void 0;
 const axios_1 = __importDefault(require("axios"));
 const luxon_1 = require("luxon");
-const FIXER_API_KEY = "xIWbbNF3uTKz3T6U43eP20MUW58yUCPQ";
-const FIXER_CACHE_VALIDITY_HOURS = 96;
+const process_1 = __importDefault(require("process"));
+const FIXER_API_KEY = process_1.default.env.FIXER_API_KEY;
+const FIXER_CACHE_VALIDITY_HOURS = parseInt(process_1.default.env.FIXER_CACHE_VALIDITY_HOURS || "96");
 const httpClient = axios_1.default.create({
-    baseURL: 'https://api.apilayer.com/fixer/',
+    baseURL: process_1.default.env.FIXER_URL,
     headers: { 'apikey': FIXER_API_KEY }
 });
 let cachedRates;

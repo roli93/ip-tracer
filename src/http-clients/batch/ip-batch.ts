@@ -1,8 +1,9 @@
 import remove from "lodash/remove";
 import {loadIpBatch} from "@/http-clients/ip-api-client";
+import * as Process from "process";
 
-const MAX_BATCH_SIZE = 2;
-const MIN_BATCH_WINDOW_MS = 10000;
+const MAX_BATCH_SIZE = parseInt(Process.env.MAX_BATCH_SIZE || "100");
+const MIN_BATCH_WINDOW_MS = parseInt(Process.env.MIN_BATCH_WINDOW_MS || "4000");
 
 export class IpBatch {
     ips: string[];

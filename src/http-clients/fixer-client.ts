@@ -1,12 +1,12 @@
 import axios, {AxiosResponse} from 'axios';
 import {DateTime} from "luxon";
+import Process from "process";
 
-const FIXER_API_KEY = "xIWbbNF3uTKz3T6U43eP20MUW58yUCPQ"
-
-const FIXER_CACHE_VALIDITY_HOURS = 96;
+const FIXER_API_KEY = Process.env.FIXER_API_KEY
+const FIXER_CACHE_VALIDITY_HOURS = parseInt(Process.env.FIXER_CACHE_VALIDITY_HOURS || "96")
 
 const httpClient = axios.create({
-    baseURL: 'https://api.apilayer.com/fixer/',
+    baseURL: Process.env.FIXER_URL,
     headers: {'apikey': FIXER_API_KEY}
 });
 

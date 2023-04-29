@@ -16,10 +16,11 @@ exports.loadIpBatch = exports.getIpData = void 0;
 const axios_1 = __importDefault(require("axios"));
 const last_1 = __importDefault(require("lodash/last"));
 const ip_batch_1 = require("@/http-clients/batch/ip-batch");
+const process_1 = __importDefault(require("process"));
 const httpClient = axios_1.default.create({
-    baseURL: 'http://ip-api.com/',
+    baseURL: process_1.default.env.IP_API_URL,
 });
-const INITIAL_SIMPLE_REQUESTS = 60;
+const INITIAL_SIMPLE_REQUESTS = parseInt(process_1.default.env.INITIAL_SIMPLE_REQUESTS || "45");
 const queue = [];
 let simpleRequestsLeft = INITIAL_SIMPLE_REQUESTS;
 const getIpData = (ip) => __awaiter(void 0, void 0, void 0, function* () {
